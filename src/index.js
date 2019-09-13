@@ -1,11 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import Slide from './slide'
-import './styles.css'
-import { Input, Form } from './components'
-import theme from './theme'
+import React from "react";
+import ReactDOM from "react-dom";
+import Slide from "./slide";
+import "./styles.css";
+import { Input, Form } from "./components";
+import theme from "./theme";
 
-import { ThemeProvider } from 'emotion-theming'
+import { ThemeProvider } from "emotion-theming";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           </div>
         </Form> */}
 
-        <Slide number={22} />
+        <Slide number={9} />
 
         <footer>
           <span>@siddharthkp</span>
@@ -31,8 +31,8 @@ function App() {
         </footer>
       </div>
     </ThemeProvider>
-  )
+  );
 }
 
-const rootElement = document.getElementById('root')
-ReactDOM.render(<App />, rootElement)
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
