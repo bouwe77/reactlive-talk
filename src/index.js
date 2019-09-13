@@ -2,35 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Slide from "./slide";
 import "./styles.css";
-import { Input, Form } from "./components";
-import theme from "./theme";
-
-import { ThemeProvider } from "emotion-theming";
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <div className="App">
-        <div />
-        {/* <Form>
-          <label for="username">Username</label>
-          <div>
-            <Input
-              id="username"
-              type="text"
-              placeholder="Enter your username"
-            />
-          </div>
-        </Form> */}
+    <div className="App">
+      <div />
 
-        <Slide number={9} />
+      <Slide number={12} />
 
-        <footer>
-          <span>@siddharthkp</span>
-          <span>sid.st/reactlive</span>
-        </footer>
-      </div>
-    </ThemeProvider>
+      <footer>
+        <span>@bouwe</span>
+        <span>https://bouwe.io</span>
+      </footer>
+    </div>
   );
 }
 
