@@ -1,4 +1,3 @@
-@import url('https://rsms.me/inter/inter.css');
 body {
   font-family: 'Inter', sans-serif;
   margin: 20px;
@@ -11,15 +10,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-blockquote {
-  font-style: italic;
-  color: rgb(23, 115, 190);
-}
 
-img {
-  max-width: 90%;
-  max-height: 400px;
-}
 footer {
   color: steelblue;
 }
